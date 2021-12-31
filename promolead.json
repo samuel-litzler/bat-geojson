@@ -11,17 +11,44 @@
   "pixel_scale": "256",
   "Layer": [
     {
-      "id": "data",
+      "id": "regions",
+      "description": "",
       "properties": {
         "buffer-size": 4,
-        "minzoom": 0,
-        "maxzoom": 22
+        "minzoom": 5.5,
+        "maxzoom": 7
       },
+      "name": "regions"
+    },
+    {
+      "id": "departements",
       "description": "",
-      "fields": {
-        
+      "properties": {
+        "buffer-size": 4,
+        "minzoom": 7,
+        "maxzoom": 9
       },
-      "name": "data"
+      "name": "departements"
+    },
+    {
+      "id": "communes",
+      "description": "",
+      "properties": {
+        "buffer-size": 4,
+        "minzoom": 9,
+        "maxzoom": 12
+      },
+      "name": "communes"
+    },
+    {
+      "id": "sections",
+      "description": "",
+      "properties": {
+        "buffer-size": 4,
+        "minzoom": 12,
+        "maxzoom": 15
+      },
+      "name": "sections"
     }
   ],
   "vector_layers": [
