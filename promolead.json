@@ -4,39 +4,13 @@
   ],
   "name": "Tuiles vectorielles France par Promolead",
   "format": "mvt",
-  "id": "tmsource:///tmp/project",
-  "attribution": "<a href=\"https://www.etalab.gouv.fr/\" target=\"_blank\">&copy; Etalab</a> <a href=\"https://www.openmaptiles.org/\" target=\"_blank\">&copy; OpenMapTiles</a> <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; Contributeurs OpenStreetMap</a>",
-  "bounds": [
-    -180,
-    -85.0511,
-    180,
-    85.0511
-  ],
-  "center": [
-    2.308097,
-    48.850132,
-    14
-  ],
+  "attribution": "Promolead",
   "description": "Tuiles vectorielles d’usage général pour la France et ses territoires d’outremer",
   "maxzoom": 16,
   "minzoom": 0,
   "pixel_scale": "256",
   "Layer": [
     {
-      "Datasource": {
-        "dbname": "cadastre",
-        "geometry_field": "wkb_geometry",
-        "host": "172.0.0.1",
-        "key_field": "",
-        "key_field_as_attribute": "",
-        "max_size": 512,
-        "password": "promolead",
-        "port": "5432",
-        "srid": 900913,
-        "table": "SELECT code,nom,ST_AsGeoJSON(ST_GeomFromWKB(wkb_geometry,4326)) FROM cadastre_france_sections(!bbox!, z(!scale_denominator!))) as t",
-        "type": "postgis",
-        "user": "pguser"
-      },
       "id": "regions",
       "properties": {
         "buffer-size": 4,
