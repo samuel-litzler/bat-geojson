@@ -22,11 +22,30 @@
         
       },
       "name": "regions"
+    },
+    {
+      "id": "parcelles",
+      "properties": {
+        "buffer-size": 4,
+        "minzoom": 0,
+        "maxzoom": 22
+      },
+      "description": "",
+      "fields": {
+        
+      },
+      "name": "parcelles"
     }
   ],
   "vector_layers": [
     {
       "id": "regions",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 22
+    },
+    {
+      "id": "parcelles",
       "description": "",
       "minzoom": 0,
       "maxzoom": 22
