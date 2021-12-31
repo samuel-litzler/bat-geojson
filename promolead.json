@@ -6,7 +6,7 @@
   "format": "mvt",
   "basename": "france-vector.mbtiles",
   "id": "tmsource:///tmp/project",
-  "attribution": "<a href=\"https://www.etalab.gouv.fr/\" target=\"_blank\">&copy; Etalab</a> <a href=\"https://www.openmaptiles.org/\" target=\"_blank\">&copy; OpenMapTiles</a> <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; Contributeurs OpenStreetMap</a>",
+  "attribution": "<a href=\"https://www.promolead.fr/\" target=\"_blank\">&copy; Promolead</a> <a href=\"https://www.openmaptiles.org/\" target=\"_blank\">&copy; OpenMapTiles</a> <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; Contributeurs OpenStreetMap</a>",
   "bounds": [
     -180,
     -85.0511,
